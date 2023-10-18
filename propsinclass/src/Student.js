@@ -3,7 +3,10 @@ import React from 'react'
 export default class Student extends React.Component {
     render() {
         return (
-            <div>Student</div>
+            <>
+                <div>Name : {this.props.name} </div>
+                <div>Email : {this.props.email} </div>
+            </>
         )
     }
 }
